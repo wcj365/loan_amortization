@@ -1,10 +1,29 @@
 # Loan Amortization
 
-Formula to calculate monthly loan payments:
+## References:
 
-$M = P \\dfrac{r (1 + r)^n }{(1 + r)^n - 1}$
+- https://www.bankrate.com/mortgages/amortization-calculator/
 
-- M	= the monthly loan payment (include principal and interest payment)
+## Formula to calculate monthly loan payments
+
+$M = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
+
+- M = the monthly loan payment (principal + interest)
 - P	= the principal loan amount
-- r	= the monthly interest rate (annual rate devided by 12)
-- n	= number of payments over the loan’s lifetime (years times 12)
+- R	= the interest rate (monthly. annual rate devided by 12)
+- N	= number of payments over the loan’s lifetime (loan years times 12)
+
+## Formula to calculate interest payment for a given month
+
+$int_pmt = olb * R$
+
+- int_pmt = interest payment
+- olb = outstanding loan balance
+
+Note: Interest payment varies from month to month.
+
+ 
+
+
+
+
