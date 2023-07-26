@@ -2,6 +2,7 @@
 
 ## References:
 
+- https://www.investopedia.com/terms/a/amortization.asp#toc-what-is-amortization
 - https://www.bankrate.com/mortgages/amortization-calculator/
 - https://www.bankrate.com/loans/personal-loans/how-to-calculate-loan-interest/
 
@@ -21,9 +22,19 @@ $m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 
 ## Formula to calculate interest payment for a given month
 
-$int = olb * R$
+$interest = olb * R$
 
 - int = interest payment
-- olb = outstanding loan balance
+- olb = outstanding loan balance at the beginning of this month)
 
 Note: Interest payment varies from month to month.
+
+- Month 1
+  - $interest01 = P * R$
+  - $principal01 = P - interest01$
+  - $olb01 = P - principal01$
+- Month 2
+  - $interest02 = $olb01 * R$
+  - $principal02 = P - interest02$
+- So on and so forth
+  
