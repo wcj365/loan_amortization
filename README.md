@@ -7,7 +7,7 @@
 
 ## Formula to calculate monthly loan payments
 
-Note: Variable naming convention
+**Note:** Variable naming convention
 
 - Upper-case letter represents constant value
 - Lower-case letter represents derived value
