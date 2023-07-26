@@ -7,10 +7,15 @@
 
 ## Formula to calculate monthly loan payments
 
-$M = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
+Note: Variable naming convention
+
+- Upper-case letter represents constant value
+- Lower-case letter represents derived value
+
+$m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 
 - M = the monthly loan payment (principal + interest)
-- P	= the principal loan amount
+- P	= the principal loan amount (original)
 - R	= the interest rate (monthly. annual rate devided by 12)
 - N	= number of payments over the loan’s lifetime (loan years times 12)
 
