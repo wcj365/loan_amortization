@@ -21,9 +21,3 @@ $int_pmt = olb * R$
 - olb = outstanding loan balance
 
 Note: Interest payment varies from month to month.
-
- 
-
-
-
-
