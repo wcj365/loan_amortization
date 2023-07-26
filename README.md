@@ -25,16 +25,17 @@ $m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 $interest = olb * R$
 
 - int = interest payment
-- olb = outstanding loan balance at the beginning of this month)
+- olb = outstanding loan balance at the end of last month)
 
 Note: Interest payment varies from month to month.
 
 - Month 1
   - $interest01 = P * R$
-  - $principal01 = P - interest01$
+  - $principal01 = m - interest01$
   - $olb01 = P - principal01$
 - Month 2
   - $interest02 = $olb01 * R$
-  - $principal02 = P - interest02$
+  - $principal02 = m - interest02$
+  - $olb02 = $olb01 - principal02$
 - So on and so forth
   
