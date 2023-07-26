@@ -15,9 +15,9 @@ $M = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 
 ## Formula to calculate interest payment for a given month
 
-$int_pmt = olb * R$
+$int = olb * R$
 
-- int_pmt = interest payment
+- int = interest payment
 - olb = outstanding loan balance
 
 Note: Interest payment varies from month to month.
