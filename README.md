@@ -3,7 +3,7 @@
 The monthly mortgage payment formula
 Here’s a formula to calculate your monthly payments manually:
 
-$M = $P \\dfrac{r (1 + r)^n }{(1 + r)^n - 1}$
+$M = P \\dfrac{r (1 + r)^n }{(1 + r)^n - 1}$
 
 Sample Mean $\bar{X}=\dfrac{1}{n}\sum\limits_{i=1}^n X_i$
 
