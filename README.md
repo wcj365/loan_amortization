@@ -15,18 +15,18 @@
 
 $m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 
-- M = the monthly loan payment (principal + interest)
-- P	= the principal loan amount (original)
-- R	= the interest rate (monthly. annual rate devided by 12)
-- N	= number of payments over the loan’s lifetime (loan years times 12)
+- $m$ = the monthly loan payment (principal + interest)
+- $P$	= the principal loan amount (original)
+- $R$	= the interest rate (monthly. annual rate devided by 12)
+- $N$	= number of payments over the loan’s lifetime (loan years times 12)
 
 ## Formula to calculate interest payment for a given month
 
 $interest = olb * R$
 
-- int = interest payment
-- olb = outstanding loan balance at the end of last month)
-
+- $interest$ = interest payment
+- $olb$ = outstanding loan balance at the end of last month
+  
 Note: Interest payment varies from month to month.
 
 - Month 1
@@ -36,6 +36,6 @@ Note: Interest payment varies from month to month.
 - Month 2
   - $interest02 = $olb01 * R$
   - $principal02 = m - interest02$
-  - $olb02 = $olb01 - principal02$
+  - $olb02 = olb01 - principal02$
 - So on and so forth
   
