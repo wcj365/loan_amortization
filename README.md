@@ -5,12 +5,12 @@
 - https://www.bankrate.com/mortgages/amortization-calculator/
 - https://www.bankrate.com/loans/personal-loans/how-to-calculate-loan-interest/
 
-## Formula to calculate monthly loan payments
-
-**Note:** Variable naming convention
+## Variable naming convention
 
 - Upper-case letter represents constant value
 - Lower-case letter represents derived value
+- 
+## Formula to calculate monthly loan payments
 
 $m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
 
