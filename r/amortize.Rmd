@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+```{r, include=FALSE}
+source("amortize.R", local = knitr::knit_global())
+# or sys.source("your-script.R", envir = knitr::knit_global())
+```
+
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+```{r}
+pmt <- monthly_payment(100000, 0.12, 1)
+pmt
+```
+```{r}
+schedule = payment_schedule(100000, 0.12,1)
+length(schedule)
+```

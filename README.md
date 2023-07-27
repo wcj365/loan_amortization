@@ -1,5 +1,10 @@
 # Loan Amortization
 
+This project implements load amortization using different programming languages.
+
+- Python
+- R
+
 ## References:
 
 - https://www.investopedia.com/terms/a/amortization.asp#toc-what-is-amortization
@@ -11,7 +16,7 @@
 
 - Upper-case letter represents constant value
 - Lower-case letter represents derived value
-- 
+ 
 ## Formula to calculate monthly loan payments
 
 $m = P \\dfrac{R (1 + R)^N }{(1 + R)^N - 1}$
