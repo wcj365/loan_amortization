@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Jay Wang" />
 
 
-<title>R Notebook</title>
+<title>Load Amortization Notebook</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1746,20 +1747,21 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">R Notebook</h1>
+<h1 class="title toc-ignore">Load Amortization Notebook</h1>
+<h4 class="author">Jay Wang</h4>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a>
-Notebook. When you execute code within the notebook, the results appear
-beneath the code.</p>
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiYW1vcnRpemUuUlwiLCBsb2NhbCA9IGtuaXRyOjprbml0X2dsb2JhbCgpKVxuIyBvciBzeXMuc291cmNlKFwieW91ci1zY3JpcHQuUlwiLCBlbnZpciA9IGtuaXRyOjprbml0X2dsb2JhbCgpKVxuYGBgIn0= -->
+<pre class="r"><code>source(&quot;amortize.R&quot;, local = knitr::knit_global())
+# or sys.source(&quot;your-script.R&quot;, envir = knitr::knit_global())</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Try executing this chunk by clicking the <em>Run</em> button within
-the chunk or by placing your cursor inside it and pressing
-<em>Ctrl+Shift+Enter</em>.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucG10IDwtIG1vbnRobHlfcGF5bWVudCgxMDAwMDAsIDAuMTIsIDEpXG5wbXRcbmBgYCJ9 -->
@@ -1808,7 +1810,7 @@ list()</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gCmBgYHtyLCBpbmNsdWRlPUZBTFNFfQpzb3VyY2UoImFtb3J0aXplLlIiLCBsb2NhbCA9IGtuaXRyOjprbml0X2dsb2JhbCgpKQojIG9yIHN5cy5zb3VyY2UoInlvdXItc2NyaXB0LlIiLCBlbnZpciA9IGtuaXRyOjprbml0X2dsb2JhbCgpKQpgYGAKCgpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIApgYGB7cn0KcG10IDwtIG1vbnRobHlfcGF5bWVudCgxMDAwMDAsIDAuMTIsIDEpCnBtdApgYGAKYGBge3J9CnNjaGVkdWxlID0gcGF5bWVudF9zY2hlZHVsZSgxMDAwMDAsIDAuMTIsMSkKbGVuZ3RoKHNjaGVkdWxlKQpgYGA=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiTG9hZCBBbW9ydGl6YXRpb24gTm90ZWJvb2siCm91dHB1dDogaHRtbF9ub3RlYm9vawphdXRob3I6ICJKYXkgV2FuZyIKLS0tCgoKYGBge3J9CnNvdXJjZSgiYW1vcnRpemUuUiIsIGxvY2FsID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpCiMgb3Igc3lzLnNvdXJjZSgieW91ci1zY3JpcHQuUiIsIGVudmlyID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpCmBgYAoKYGBge3J9CnBtdCA8LSBtb250aGx5X3BheW1lbnQoMTAwMDAwLCAwLjEyLCAxKQpwbXQKYGBgCmBgYHtyfQpzY2hlZHVsZSA9IHBheW1lbnRfc2NoZWR1bGUoMTAwMDAwLCAwLjEyLDEpCmxlbmd0aChzY2hlZHVsZSkKYGBg</div>
 
 
 
