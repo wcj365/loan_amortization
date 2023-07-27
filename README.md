@@ -5,6 +5,7 @@
 - https://www.investopedia.com/terms/a/amortization.asp#toc-what-is-amortization
 - https://www.bankrate.com/mortgages/amortization-calculator/
 - https://www.bankrate.com/loans/personal-loans/how-to-calculate-loan-interest/
+- https://www.calculator.net/loan-calculator.html
 
 ## Variable naming convention
 
